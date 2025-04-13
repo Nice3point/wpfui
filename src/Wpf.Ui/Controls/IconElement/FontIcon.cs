@@ -22,7 +22,7 @@ public class FontIcon : IconElement
         nameof(FontFamily),
         typeof(FontFamily),
         typeof(FontIcon),
-        new FrameworkPropertyMetadata(SystemFonts.MessageFontFamily, OnFontFamilyChanged)
+        new FrameworkPropertyMetadata(new FontFamily("Segoe Fluent Icons, Segoe MDL2 Assets"), OnFontFamilyChanged)
     );
 
     /// <summary>Identifies the <see cref="FontSize"/> dependency property.</summary>
